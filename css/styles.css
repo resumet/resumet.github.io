@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem;
 }
 
-.tg {border-collapse:collapse;border-spacing:0;width: 60%;
+.tg {border-collapse:collapse;border-spacing:0;width: 80%;
 			margin-left: auto;
 			margin-right: auto;
 			border-top: 1px solid #444444;}
@@ -97,14 +97,14 @@ h1, h2, h3, h4, h5, h6 {
 .tg .tg-00ax{text-align:left;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 .tg .tg-02ax{text-align:right;vertical-align:top}
-.jb-th-0 {width: 15%;}
-.jb-th-1 {width: 5%;}
-.jb-th-2 {width: 15%;}
-.jb-th-3 {width: 15%;}
-.jb-th-4 {width: 15%;}
-.jb-th-5 {width: 8%;}
-.jb-th-6 {width: 8%;}
-.jb-th-7 {width: 5%;}
+.jb-th-0 {width: 5%;}
+.jb-th-1 {width: 15%;}
+.jb-th-2 {width: 5%;}
+.jb-th-3 {width: 10%;}
+.jb-th-4 {width: 10%;}
+.jb-th-5 {width: 5%;}
+.jb-th-6 {width: 5%;}
+
 .header {background-color:#53261f;text-align:center;vertical-align:center;padding:1px;color:white;}
 .bloglink {background-color:#53261f;text-align:right;vertical-align:center;padding:1px;padding-right:12px;color:white;font-size:12px}
 
