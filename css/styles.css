@@ -88,15 +88,18 @@ h1, h2, h3, h4, h5, h6 {
 			margin-left: auto;
 			margin-right: auto;
 			border-top: 1px solid #444444;}
-.tg td{1px;font-family:"Noto Serif KR", "Noto Serif KR";font-size:14px;
+.tg td{1px;font-family:"Noto Serif KR", "Noto Serif KR";font-size:16px;
 		  overflow:hidden;padding:10px 5px;word-break:normal;border-bottom: 1px solid #444444;}
 		  
-.tg th{font-family:"Noto Serif KR", "Noto Serif KR";font-size:14px;
+.tg th{font-family:"Noto Serif KR", "Noto Serif KR";font-size:16px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;border-bottom: 1px solid #444444;}
   
 .tg .tg-00ax{text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-02ax{text-align:right;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top;}
+.tg .tg-02ax{text-align:right;vertical-align:top;}
+
+.tg .tg-gray{;background-color:#c0c0c0}
+
 .jb-th-0 {width: 5%;}
 .jb-th-1 {width: 15%;}
 .jb-th-2 {width: 5%;}
