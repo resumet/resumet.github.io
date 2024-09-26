@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Combined Table</title> 
+    <title>Combined Table</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            padding: 20px;
+            min-height: 100vh; /* Ensure the body expands to fit the content */
         }
         table {
             border-collapse: collapse;
-            background-color: #ff0000;
+            width: 95%; /* Expanded table width */
+            max-width: 1200px; /* Increased max width for better layout */
+            background-color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
         }
@@ -44,212 +44,211 @@
 </head>
 <body>
 
-
-    <h2>통합 표</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>단지명</th>
-                <th>세대수</th>
-                <th>분양시기</th>
-                <th>평형</th>
-                <th>분양가</th>
-                <th>1순위 경쟁률</th>
-                <th>최저가점</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>반포 메이플자이</td>
-                <td>3,307</td>
-                <td>24년 2월</td>
-                <td>59㎡</td>
-                <td>17.4억</td>
-                <td>3,574:1</td>
-                <td>76점</td>
-            </tr>
-            <tr>
-                <td>경희궁 유보라</td>
-                <td>199</td>
-                <td>24년 3월</td>
-                <td>59㎡</td>
-                <td>13.5억</td>
-                <td>130:1</td>
-                <td>66점</td>
-            </tr>
-            <tr>
-                <td>더샵둔촌프레</td>
-                <td>572</td>
-                <td>24년 3월</td>
-                <td>84㎡A</td>
-                <td>13.7억</td>
-                <td>81:1</td>
-                <td>61점</td>
-            </tr>
-            <tr>
-                <td>강변역 센트럴 아이파크</td>
-                <td>214</td>
-                <td>24년 5월</td>
-                <td>84㎡</td>
-                <td>13억</td>
-                <td>523:1</td>
-                <td>72점</td>
-            </tr>
-            <tr>
-                <td>마포자이힐스테이트</td>
-                <td>1,101</td>
-                <td>24년 6월</td>
-                <td>59㎡A</td>
-                <td>13.4억</td>
-                <td>236:1</td>
-                <td>69점</td>
-            </tr>
-            <tr>
-                <td>푸르지오 라디우스 파크</td>
-                <td>1,637</td>
-                <td>24년 7월</td>
-                <td>59㎡A</td>
-                <td>9.4억</td>
-                <td>30:1</td>
-                <td>60점</td>
-            </tr>
-            <tr>
-                <td>래미안 원펜타스</td>
-                <td>641</td>
-                <td>24년 7월</td>
-                <td>59㎡B</td>
-                <td>17억</td>
-                <td>1,604:1</td>
-                <td>74점</td>
-            </tr>
-            <tr>
-                <td>래미안 레벤투스</td>
-                <td>308</td>
-                <td>24년 8월</td>
-                <td>59㎡B</td>
-                <td>17억</td>
-                <td>456:1</td>
-                <td>69점</td>
-            </tr>
-            <tr>
-                <td>디에이치방배</td>
-                <td>3,080</td>
-                <td>24년 8월</td>
-                <td>59㎡B</td>
-                <td>17억</td>
-                <td>233:1</td>
-                <td>69점</td>
-            </tr>
-            <tr>
-                <td>라체르노 푸르지오써밋</td>
-                <td>958</td>
-                <td>24년 8월</td>
-                <td>59㎡B</td>
-                <td>14억</td>
-                <td>373:1</td>
-                <td>74점</td>
-            </tr>
-            <tr>
-                <td>청담르엘</td>
-                <td>1,261</td>
-                <td>24년 9월</td>
-                <td>59㎡B</td>
-                <td>20억</td>
-                <td>769:1</td>
-                <td>?</td>
-            </tr>
-            <tr>
-                <td>광명자이힐스테이트SK뷰</td>
-                <td>2,878</td>
-                <td>'24.01</td>
-                <td>59㎡A</td>
-                <td>9억</td>
-                <td>11.1:1 (기타지역)</td>
-                <td>47점</td>
-            </tr>
-            <tr>
-                <td>영통자이 센트럴파크</td>
-                <td>580</td>
-                <td>'24.02</td>
-                <td>84㎡A</td>
-                <td>10.2억</td>
-                <td>7.28:1</td>
-                <td>46점</td>
-            </tr>
-            <tr>
-                <td>광명 롯데캐슬시그니처</td>
-                <td>1,509</td>
-                <td>'24.04</td>
-                <td>59㎡A</td>
-                <td>9억</td>
-                <td>7.26:1 (기타지역)</td>
-                <td>44점</td>
-            </tr>
-            <tr>
-                <td>여주역자이 헤리티지</td>
-                <td>769</td>
-                <td>'24.04</td>
-                <td>59㎡B</td>
-                <td>3.7억</td>
-                <td>13.55:1</td>
-                <td>54점</td>
-            </tr>
-            <tr>
-                <td>고양 장항 카이브 유보라</td>
-                <td>1,694</td>
-                <td>'24.06</td>
-                <td>84㎡A</td>
-                <td>7.8억</td>
-                <td>173:1</td>
-                <td>69점</td>
-            </tr>
-            <tr>
-                <td>과천 디에트르 퍼스티지</td>
-                <td>740</td>
-                <td>'24.06</td>
-                <td>59㎡A</td>
-                <td>8.4억</td>
-                <td>706:1</td>
-                <td>74점</td>
-            </tr>
-            <tr>
-                <td>산성역 헤리슨트</td>
-                <td>3,487</td>
-                <td>'24.06</td>
-                <td>84㎡A</td>
-                <td>12억</td>
-                <td>27.4:1</td>
-                <td>65점</td>
-            </tr>
-            <tr>
-                <td>동탄역 대방 엘리움</td>
-                <td>464</td>
-                <td>'24.06</td>
-                <td>82㎡A</td>
-                <td>6.8억</td>
-                <td>3395:1</td>
-                <td>74점</td>
-            </tr>
-            <tr>
-                <td>북수원 이목지구 디에트르</td>
-                <td>768</td>
-                <td>'24.09</td>
-                <td>84㎡B</td>
-                <td>10억</td>
-                <td>1.34:1</td>
-                <td>33점</td>
-            </tr>
-            <tr>
-                <td>신흥역 해링턴스퀘어</td>
-                <td>1,319</td>
-                <td>'24.09</td>
-                <td>84㎡A</td>
-                <td>12억</td>
-                <td>40:1</td>
-                <td>?</td>
-            </tr>
-        </tbody>
-    </table>
+<h2>통합 표</h2>
+<table>
+    <thead>
+        <tr>
+            <th>단지명</th>
+            <th>세대수</th>
+            <th>분양시기</th>
+            <th>평형</th>
+            <th>분양가</th>
+            <th>1순위 경쟁률</th>
+            <th>최저가점</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>반포 메이플자이</td>
+            <td>3,307</td>
+            <td>24년 2월</td>
+            <td>59㎡</td>
+            <td>17.4억</td>
+            <td>3,574:1</td>
+            <td>76점</td>
+        </tr>
+        <tr>
+            <td>경희궁 유보라</td>
+            <td>199</td>
+            <td>24년 3월</td>
+            <td>59㎡</td>
+            <td>13.5억</td>
+            <td>130:1</td>
+            <td>66점</td>
+        </tr>
+        <tr>
+            <td>더샵둔촌프레</td>
+            <td>572</td>
+            <td>24년 3월</td>
+            <td>84㎡A</td>
+            <td>13.7억</td>
+            <td>81:1</td>
+            <td>61점</td>
+        </tr>
+        <tr>
+            <td>강변역 센트럴 아이파크</td>
+            <td>214</td>
+            <td>24년 5월</td>
+            <td>84㎡</td>
+            <td>13억</td>
+            <td>523:1</td>
+            <td>72점</td>
+        </tr>
+        <tr>
+            <td>마포자이힐스테이트</td>
+            <td>1,101</td>
+            <td>24년 6월</td>
+            <td>59㎡A</td>
+            <td>13.4억</td>
+            <td>236:1</td>
+            <td>69점</td>
+        </tr>
+        <tr>
+            <td>푸르지오 라디우스 파크</td>
+            <td>1,637</td>
+            <td>24년 7월</td>
+            <td>59㎡A</td>
+            <td>9.4억</td>
+            <td>30:1</td>
+            <td>60점</td>
+        </tr>
+        <tr>
+            <td>래미안 원펜타스</td>
+            <td>641</td>
+            <td>24년 7월</td>
+            <td>59㎡B</td>
+            <td>17억</td>
+            <td>1,604:1</td>
+            <td>74점</td>
+        </tr>
+        <tr>
+            <td>래미안 레벤투스</td>
+            <td>308</td>
+            <td>24년 8월</td>
+            <td>59㎡B</td>
+            <td>17억</td>
+            <td>456:1</td>
+            <td>69점</td>
+        </tr>
+        <tr>
+            <td>디에이치방배</td>
+            <td>3,080</td>
+            <td>24년 8월</td>
+            <td>59㎡B</td>
+            <td>17억</td>
+            <td>233:1</td>
+            <td>69점</td>
+        </tr>
+        <tr>
+            <td>라체르노 푸르지오써밋</td>
+            <td>958</td>
+            <td>24년 8월</td>
+            <td>59㎡B</td>
+            <td>14억</td>
+            <td>373:1</td>
+            <td>74점</td>
+        </tr>
+        <tr>
+            <td>청담르엘</td>
+            <td>1,261</td>
+            <td>24년 9월</td>
+            <td>59㎡B</td>
+            <td>20억</td>
+            <td>769:1</td>
+            <td>?</td>
+        </tr>
+        <tr>
+            <td>광명자이힐스테이트SK뷰</td>
+            <td>2,878</td>
+            <td>'24.01</td>
+            <td>59㎡A</td>
+            <td>9억</td>
+            <td>11.1:1 (기타지역)</td>
+            <td>47점</td>
+        </tr>
+        <tr>
+            <td>영통자이 센트럴파크</td>
+            <td>580</td>
+            <td>'24.02</td>
+            <td>84㎡A</td>
+            <td>10.2억</td>
+            <td>7.28:1</td>
+            <td>46점</td>
+        </tr>
+        <tr>
+            <td>광명 롯데캐슬시그니처</td>
+            <td>1,509</td>
+            <td>'24.04</td>
+            <td>59㎡A</td>
+            <td>9억</td>
+            <td>7.26:1 (기타지역)</td>
+            <td>44점</td>
+        </tr>
+        <tr>
+            <td>여주역자이 헤리티지</td>
+            <td>769</td>
+            <td>'24.04</td>
+            <td>59㎡B</td>
+            <td>3.7억</td>
+            <td>13.55:1</td>
+            <td>54점</td>
+        </tr>
+        <tr>
+            <td>고양 장항 카이브 유보라</td>
+            <td>1,694</td>
+            <td>'24.06</td>
+            <td>84㎡A</td>
+            <td>7.8억</td>
+            <td>173:1</td>
+            <td>69점</td>
+        </tr>
+        <tr>
+            <td>과천 디에트르 퍼스티지</td>
+            <td>740</td>
+            <td>'24.06</td>
+            <td>59㎡A</td>
+            <td>8.4억</td>
+            <td>706:1</td>
+            <td>74점</td>
+        </tr>
+        <tr>
+            <td>산성역 헤리슨트</td>
+            <td>3,487</td>
+            <td>'24.06</td>
+            <td>84㎡A</td>
+            <td>12억</td>
+            <td>27.4:1</td>
+            <td>65점</td>
+        </tr>
+        <tr>
+            <td>동탄역 대방 엘리움</td>
+            <td>464</td>
+            <td>'24.06</td>
+            <td>82㎡A</td>
+            <td>6.8억</td>
+            <td>3395:1</td>
+            <td>74점</td>
+        </tr>
+        <tr>
+            <td>북수원 이목지구 디에트르</td>
+            <td>768</td>
+            <td>'24.09</td>
+            <td>84㎡B</td>
+            <td>10억</td>
+            <td>1.34:1</td>
+            <td>33점</td>
+        </tr>
+        <tr>
+            <td>신흥역 해링턴스퀘어</td>
+            <td>1,319</td>
+            <td>'24.09</td>
+            <td>84㎡A</td>
+            <td>12억</td>
+            <td>40:1</td>
+            <td>?</td>
+        </tr>
+    </tbody>
+</table>
 
 </body>
 </html>
